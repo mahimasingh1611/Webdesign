@@ -18,7 +18,7 @@ If we pull the image from dockerhub it will fetch the latest image but if the im
 
 Problem: We want to keep the data even after the container is deleted or removed
 
-Introduction of Volume
+#Introduction of Volume
 Volumes are folder on your host machine which you Docker aware of and which are then mapped to folders inside of Docker containers
 
 Volume persist if a container shut down. If a container restart or start mount a volume any data inside of that volume is available in the container.
